@@ -1,14 +1,14 @@
 # MCP Agent Configuration
 # Copy this file to mcp_agent.config.yaml and add your API key
 name: "main_agent_app"
-description: "Main agent that uses continent helper MCP server"
+description: "Main agent that uses plot generator MCP server"
 
 # MCP Servers configuration
 mcp:
   servers:
-    continent-helper:
+    plot-generator:
       command: python
       args:
-        - /Users/mbaz/AITests/continent_helper_server.py
+        - /Users/mbaz/BestSeller/plot_generator_server.py
       env:
-        ANTHROPIC_API_KEY: YOUR_API_KEY_HERE
+        ANTHROPIC_API_KEY: your-api-key-here
