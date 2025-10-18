@@ -30,3 +30,6 @@ mcp_agent.config.yaml
 
 # Logs
 *.log
+
+# Generated content
+chapters/
