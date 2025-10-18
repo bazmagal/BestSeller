@@ -1,0 +1,14 @@
+# MCP Agent Configuration
+# Copy this file to mcp_agent.config.yaml and add your API key
+name: "main_agent_app"
+description: "Main agent that uses continent helper MCP server"
+
+# MCP Servers configuration
+mcp:
+  servers:
+    continent-helper:
+      command: python
+      args:
+        - /Users/mbaz/AITests/continent_helper_server.py
+      env:
+        ANTHROPIC_API_KEY: YOUR_API_KEY_HERE
