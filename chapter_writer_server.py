@@ -86,7 +86,7 @@ PREVIOUS CHAPTERS SUMMARY:
 CHAPTER {chapter_number} OUTLINE:
 {chapter_outline}
 
-Write a compelling, detailed chapter (approximately 500-800 words) that:
+Write a compelling, detailed chapter (approximately 200-300 words) that:
 - Follows the overall plot and chapter outline
 - Maintains continuity with previous chapters
 - Includes vivid descriptions, dialogue, and character development
