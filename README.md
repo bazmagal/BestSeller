@@ -2,7 +2,7 @@
 
 A multi-agent system built with the Model Context Protocol (MCP) that generates complete 5-chapter stories. The main agent orchestrates two specialized MCP servers to create cohesive short stories from simple themes.
 
-# Motivation
+## Motivation
 I mainly did as an exercise in writing MCP-based agents. 
 The main challenge with writing a full-size novel with LLMs is that the context required for doing it in one go is just too large. The solution I chose was to break it down into a set of operations, like "generate outline", "create a chapter" and so on, each done via a prompt invocatoin.   
 There are several projects online that follow this approach (e.g. https://github.com/adamwlarson/ai-book-writer/blob/main/outline_generator.py), but the ones I've seen are based on procedural scripts that define the sequence of prompts to be used (e.g. geneate chapters in a for loop). I wanted instead to have a orchasrator agent that has access to a set of helper agents, each of them providing one service exposed as an MCP server (e.g. "write single chapter"), and just let the orchasrator manage the process. 
