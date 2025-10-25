@@ -33,3 +33,5 @@ mcp_agent.config.yaml
 
 # Generated content
 chapters/
+chapters_cat/
+log
