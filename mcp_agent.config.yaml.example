@@ -11,11 +11,11 @@ mcp:
       args:
         - /Users/mbaz/BestSeller/plot_generator_server.py
       env:
-        ANTHROPIC_API_KEY: YOUR_API_KEY_HERE
+        ANTHROPIC_API_KEY: your-api-key-here
 
     chapter-writer:
       command: python
       args:
         - /Users/mbaz/BestSeller/chapter_writer_server.py
       env:
-        ANTHROPIC_API_KEY: YOUR_API_KEY_HERE
+        ANTHROPIC_API_KEY: your-api-key-here
